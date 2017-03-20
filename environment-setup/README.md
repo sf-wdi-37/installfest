@@ -71,13 +71,13 @@ __Note:  when copying the code snippets, please exclude the `$` as you paste and
 
 7. Now run the Terminal command `tree` to see a tree view of all the files inside your current directory!
  -->
-8. `trash` is a Homebrew package that easily allows one to move files or folders into the trash bin from the terminal. This is good practice because [other commands](http://docstore.mik.ua/orelly/unix3/upt/ch14_03.htm) may be more dangerious. Again, the `trash` tool does not permanently delete files or folders, but simply places them in the trash. Let's install it using homebrew with the command:
+7. `trash` is a Homebrew package that easily allows one to move files or folders into the trash bin from the terminal. This is good practice because [other commands](http://docstore.mik.ua/orelly/unix3/upt/ch14_03.htm) may be more dangerious. Again, the `trash` tool does not permanently delete files or folders, but simply places them in the trash. Let's install it using homebrew with the command:
 
     ```bash
     $ brew install trash
     ```
 
-    We can test this by creating a file and moving our dummy file into our trash bin. Run these lines in your terminal to see the power of `trash`:
+8. We can test this by creating a file and moving our dummy file into our trash bin. Run these lines in your terminal to see the power of `trash`:
 
     ```bash
     $ touch new-trash-file.txt
