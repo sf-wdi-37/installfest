@@ -57,20 +57,21 @@ __Note:  when copying the code snippets, please exclude the `$` as you paste and
     $ echo 'export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"' >> ~/.bash_profile
     ```
 
-6. Let's install our first package with Homebrew, `tree`!  This package adds a command to your Terminal that displays files in a tree view (instead of a list view like `ls`).  Enter the following command in your Terminal:
+6. Let's install our first package with Homebrew!  
+  <!-- The `tree` package adds a command to your Terminal that displays files in a tree view (instead of a list view like `ls`).  Enter the following command in your Terminal:
 
     ```bash
     $ tree
     ```
-It will tell you that this command is not found or it just won't do anything. This is because it's not a program (command) that's installed on your machine. Now install it with this command:
+  It will tell you that this command is not found or it just won't do anything. This is because it's not a program (command) that's installed on your machine. Now install it with this command:
 
     ```bash
     $ brew install tree
     ```
 
 7. Now run the Terminal command `tree` to see a tree view of all the files inside your current directory!
-
-8. `trash` is another Homebrew package that easily allows one to move files or folders into the trash bin from the terminal. This is good practice because [other commands](http://docstore.mik.ua/orelly/unix3/upt/ch14_03.htm) may be more dangerious. Again, the `trash` tool does not permanently delete files or folders, but simply places them in the trash. Let's install it using homebrew with the command:
+ -->
+8. `trash` is a Homebrew package that easily allows one to move files or folders into the trash bin from the terminal. This is good practice because [other commands](http://docstore.mik.ua/orelly/unix3/upt/ch14_03.htm) may be more dangerious. Again, the `trash` tool does not permanently delete files or folders, but simply places them in the trash. Let's install it using homebrew with the command:
 
     ```bash
     $ brew install trash
