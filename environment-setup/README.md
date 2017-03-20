@@ -95,9 +95,10 @@ __Note:  when copying the code snippets, please exclude the `$` as you paste and
 
 ## Customization
 
+
 ### Styles
 
-If you haven't done anything to personalize the terminal yet that's fine, but it will probably look a little boring (and hard to read). We recommend adding some styles to the bash shell. [Solarized](http://ethanschoonover.com/solarized) is a great theme for this purpose.
+If you haven't done anything to personalize the terminal yet, it's probably a little harder to read than it needs to be. We recommend adding some styles to the bash shell. [Solarized](http://ethanschoonover.com/solarized) is a great theme for this purpose.
 
 1. [Download](http://ethanschoonover.com/solarized/files/solarized.zip) the zip file of all the themes.
 2. Unzip it by double-clicking
@@ -106,6 +107,7 @@ If you haven't done anything to personalize the terminal yet that's fine, but it
 5. Finally, click the button `Default` next to the cog/gear icon, which will set this to your default theme.
 
 Try opening up a new window for the Terminal and ensure the color scheme has been updated.
+
 
 ### Option as Meta Key
 
@@ -126,6 +128,7 @@ In more recent models of Apple computers, the trackpad produces an artifical "cl
 3. At the bottom, check the input that displays "Silent clicking".
 
 Ensure the trackpad no longer makes a noise when clicked.
+
 
 ## Git
 
